@@ -1,0 +1,5 @@
+CREATE USER userql IDENTIFIED BY 'userqlpw';
+
+grant usage on *.* to userql@localhost identified by 'userqlpw';
+grant all privileges on crimeakidb.* to userql@localhost;
+ 
